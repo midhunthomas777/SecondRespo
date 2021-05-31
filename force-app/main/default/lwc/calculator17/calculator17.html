@@ -1,0 +1,11 @@
+<template>
+    <lightning-input label='FirstName' value={Firstname} onchange={FirstNumberChange}></lightning-input>
+    <lightning-input label='SecondName' value={SecondName} onchange={SecodNumberChange} ></lightning-input>
+    <lightning-button label="Add" title="Addition" onclick={add}></lightning-button>
+    <lightning-button label="Sub" title="Substration" onclick={sub}></lightning-button>
+    <lightning-button label="Mul" title="Multiplication" onclick={mul}></lightning-button>
+    <lightning-button label="div" title="Division" onclick={div}></lightning-button>
+    <br/>
+    {result}
+    
+</template>

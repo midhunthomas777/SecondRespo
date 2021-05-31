@@ -1,0 +1,14 @@
+<apex:page standardController="opportunity">
+<apex:pageBlock title="opp Summery">
+<apex:pageBlockSection >
+account:{!opportunity.account}<br/>
+amount:{!opportunity.amount} <br/>
+close date:{!opportunity.closedate}<br/>
+stage:{!opportunity.stagename}<br/>
+
+
+</apex:pageBlockSection>
+
+</apex:pageBlock>
+
+</apex:page>

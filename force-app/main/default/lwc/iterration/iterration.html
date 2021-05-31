@@ -1,0 +1,15 @@
+<template>
+    <lightning-card>
+        <lightning-input type="checkbox" label="Show Div" onchange={showDivHandler}></lightning-input>
+        <template if:true={showDiv}>
+        <template for:each={citylist} for:item="city">
+            <li key={city}>city</li> 
+        </template>
+
+
+
+        </template>
+
+
+    </lightning-card>
+</template>

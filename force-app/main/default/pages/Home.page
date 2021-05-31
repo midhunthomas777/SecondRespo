@@ -1,0 +1,7 @@
+<apex:page tabStyle="Account">
+<apex:pageBlock title="Home">
+<apex:pageBlockSection Columns="1">
+({! IF($User.isActive, $User.Username, 'inactive') })
+</apex:pageBlockSection>
+</apex:pageBlock>
+</apex:page>

@@ -1,0 +1,9 @@
+<template>
+        <lightning-card title="Conditional Rendering Example">
+            <lightning-input type="checkbox" label="Show Div " onclick={displayDivHandler}></lightning-input>
+            <template if:true={displayDiv}>
+                <P> I m displayed</P>
+            </template>
+        </lightning-card>
+    
+    </template>
