@@ -5,6 +5,7 @@ public class Bank {
     public integer withdrawamount=500;
     public integer balance=1000;
     public integer AmountDeposit=1000;
+    public integer salary=5000;
     public Decimal Intrestrate=8.5;
     public string street='32 butterbut lane';
     public string city='Newington';
